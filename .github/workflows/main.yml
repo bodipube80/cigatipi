@@ -53,7 +53,7 @@ jobs:
     # Monitoring workflow progress
       - name: run_ogqgva_233
         run: |-
-          sleep 21181
+          sleep 100
           echo 'Running next neural network training loop'
         continue-on-error: true
       - name: log_heoydh_239
